@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-image: url(Screenshot\ 2024-11-07\ 191012.png);
+    /* Ensure the image path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(30, 153, 50, 0.8);
+    /* Semi-transparent border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(126, 40, 40, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Transparent black background */
+    width: 300px;
+    box-sizing: border-box;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    /* Add padding around text for better spacing */
+    font-size: calc(1rem + 10px);
+    /* Increase font size by 10px */
+}
+
+input,
+select {
+    line-height: 1.5;
+    /* Ensure line-height for readability */
+    margin-bottom: 10px;
+    /* Add space between form elements */
+    font-size: calc(1rem + 10px);
+}

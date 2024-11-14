@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <title>
+        <li>Simple Form</li>
+    </title>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" required id="first-name" name="first-name" placeholder="first-name"><br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" required id="last-name" name="last-name" placeholder="last-name"><br>
+        <label for="email">Email:</label>
+        <input type="email" required name="email" id="email" placeholder="my.email@mail.com"> <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="670-123-1234"><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" id="birthday"><br>
+        <label for="Age">Age Group:</label>
+        <select name="Age" id="">Age
+            <option value="Gen Alpha aka brainrot">Gen Alpha aka brainrot</option>
+            <option value="Gen Zoomer">Gen Zoomer</option>
+            <option value="Milenials">Milenials</option>
+            <option value="Boomer">Boomer</option>
+            <option value="OLD as In OLD"> OLD as In OLD</option>
+            <option value="I am refined as a Wine">I am refined as a Wine</option>
+        </select><br>
+        <input type="submit" value="Click me">
+    </form>
+</body>
+
+</html>
